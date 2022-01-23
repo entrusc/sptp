@@ -1,0 +1,25 @@
+{
+    "name": "SPTP",
+    "version": "0.1.0",
+    "description": "Arduino based library for the simple point to point (SPTP) protocol that allows simple communication with a host computer via serial connection",
+    "keywords": "serial, sptp, communication, command",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/entrusc/sptp.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Florian Frankenberger",
+        "email": "f.frankenberger@mobiuscode.de"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/entrusc/sptp.git",
+    "dependencies": {
+      "frankboesing/FastCRC": "~1.41"
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
+  }
